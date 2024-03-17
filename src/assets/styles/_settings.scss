@@ -1,0 +1,55 @@
+/* Ici tous les réglages généraux, variables et mixins*/
+@font-face {
+    font-family: "fira-sans-bold";
+    src: url(../fonts/FiraSans-Bold.ttf);
+}
+@font-face {
+    font-family: "fira-sans-medium";
+    src: url(../fonts/FiraSans-Medium.ttf);
+}
+@font-face {
+    font-family: "montserrat-bold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "montserrat-medium";
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "montserrat-regular";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+$font1: fira-sans-bold, serif;
+$font2: fira-sans-medium, serif;
+$font3: montserrat-bold, sans-serif;
+$font4: montserrat-medium, sans-serif;
+$font5: montserrat-regular, sans-serif;
+
+$color1: #2B1C50;
+$color2: #692E81;
+$color3: #E9E7F3;
+$color4: linear-gradient(160deg, rgba(43,28,80,1) 20%, rgba(105,46,129,1) 100%);
+$color5: linear-gradient(180deg, rgba(248,170,137,1) 0%, rgba(248,170,138,1) 60%, rgba(255,255,255,1) 100%, rgba(255,255,0,1) 100%, rgba(255,0,255,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+$color6: linear-gradient(180deg, rgba(253,244,235,1) 0%, rgba(250,197,173,1) 60%, rgba(255,255,255,1) 96%);
+
+$white: white;
+$black: black;
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a, a:visited{
+    color: $white ;
+    text-decoration: none;
+}

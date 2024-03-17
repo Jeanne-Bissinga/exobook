@@ -1,0 +1,131 @@
+.logo-container {
+  font-size: 36px;
+  margin: 40px 0 40px 20px;
+}
+
+.form-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .form-container {
+    width: 645px;
+    padding: 28px;
+    border: 1px solid black;
+
+    .prev-step {
+      display: grid;
+      grid-template-columns: 5% 95%;
+
+      .chevron-right-black{
+        cursor: pointer;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    form {
+      .input-control {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      input[type="submit"],
+      .next {
+        width: 589px;
+        padding: 14px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+      label {
+        display: flex;
+        margin: 0 auto;
+      }
+
+      .checkBox-container {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        label {
+          margin-left: 10px;
+        }
+      }
+
+      input[type="submit"],
+      .next {
+        margin-top: 30px;
+        background: white;
+        &:hover {
+          background: #000;
+          color: white;
+        }
+      }
+
+      .member {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+
+      .reset-passWord {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+
+      .error{
+        color: #ff4d00;
+        text-align: left;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+//style react select
+
+/* Style pour le conteneur du champ de sélection */
+.react-select-container {
+  margin-bottom: 20px;
+}
+
+/* Style pour le label du champ de sélection */
+.react-select-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style pour le champ de sélection */
+.react-select-field {
+  width: 100%;
+}
+
+/* Style pour le menu déroulant */
+.react-select-menu {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style pour les options du menu déroulant */
+.react-select-option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Style pour les options sélectionnées */
+.react-select-option.react-select-option--is-selected {
+  background-color: #e5ff00;
+  color: #fff;
+}
+
+/* Style pour la zone de recherche */
+.react-select-input {
+  padding: 10px;
+}
